@@ -5,7 +5,7 @@ body {
 
 .parallax {
     height: 100vh;
-    background-image: url('./images/8f308f65-b86b-4ad0-b95f-2e13aba6f346 (1).png');
+    background-image: url('./8f308f65-b86b-4ad0-b95f-2e13aba6f346 (1).png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -17,8 +17,8 @@ body {
 }
 
 .parallax3{
-    height: 100vh;
-    background-image: url('./images/map.jpeg');
+    
+    background-image: url('./map.jpeg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 .navbar{
-     background-color: rgba(0, 0, 0, 0.8) 
+     background-color: rgba(0, 0, 0, 0.7) 
 }
 .card:hover{
     transform: scale(1.05);
@@ -113,8 +113,6 @@ body {
     gap: 10px;
     margin-top: 20px;
 }
-
-
 .price-card {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
@@ -122,12 +120,6 @@ body {
 .price-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
-}
-
-
-.form-control:focus {
-    outline: none; /* Remove default outline */
-    border-color: #007bff; /* Change border color on focus */
 }
 
 .item.error {
@@ -147,3 +139,4 @@ body {
 .form-control {
     height: 60px; /* Adjust the height as needed */
 }
+

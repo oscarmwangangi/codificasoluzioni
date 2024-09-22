@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.parallax {
+    height: 100vh;
+    background-image: url('./images/8f308f65-b86b-4ad0-b95f-2e13aba6f346 (1).png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.parallax3{
+    height: 100vh;
+    background-image: url('./images/map.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    max-width: 80%; /* Ensure text does not extend too wide */
+    width: fit-content; /* Adjust width based on content */
+    margin: auto; /* Center horizontally */
+    position: relative; /* For correct positioning within parallax */
+    ;
+}
+.text-overlay {
+    max-width: 80%; /* Ensure text does not extend too wide */
+    width: fit-content; /* Adjust width based on content */
+    margin: auto; /* Center horizontally */
+    position: relative; /* For correct positioning within parallax */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar{
+     background-color: rgba(0, 0, 0, 0.8) 
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+#prices{
+    background-color: #f6f6f8
+}
+/* General Styling */
+#about .container {
+    position: relative;
+}
+
+.section-heading {
+    margin-bottom: 1rem; /* Spacing between heading and paragraph */
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+    .section-heading {
+        font-size: 2.5rem; /* Larger font size for headings on larger screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .section-heading {
+        font-size: 3rem; /* Even larger font size for very large screens */
+    }
+}
+
+/* Styling for About Section */
+#about .container .row {
+    margin-right: -15px; /* Remove padding from row */
+    margin-left: -15px;  /* Remove padding from row */
+}
+
+#about .container .row > div {
+    padding-right: 15px; /* Space between text and image */
+    padding-left: 15px;  /* Space between text and image */
+}
+
+#about .container .row img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-mission {
+    margin-right: 1.5rem; /* Adjust as needed for spacing */
+}
+
+@media (min-width: 768px) {
+    #about .row {
+        justify-content: space-between; /* Space between columns */
+    }
+}
+.chart-container {
+    width: 100%; /* Full width of the Bootstrap column */
+    max-width: 500px; /* Set a max width to control size */
+    margin: auto;
+}
+.chart-wrapper {
+    position: relative;
+    height: 450px; /* Adjust the height as needed */
+}
+.custom-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+.price-card {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+.price-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+.form-control:focus {
+    outline: none; /* Remove default outline */
+    border-color: #007bff; /* Change border color on focus */
+}
+
+.item.error {
+    border: 2px solid red;
+    box-shadow: 0 0 5px red;
+}
+
+.error-txt.show {
+    display: block;
+    color: red;
+}
+
+.error-txt {
+    display: none;
+    color: red;
+}
+.form-control {
+    height: 60px; /* Adjust the height as needed */
+}
